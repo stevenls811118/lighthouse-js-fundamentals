@@ -13,9 +13,12 @@ const generateBoard = function(arrayOne, arrayTwo) {
 
 
 
-
 let whiteQueen = [0, 0];
 let blackQueen = [5, 7];
 let generatedBoard = generateBoard(whiteQueen, blackQueen);
-console.log(generatedBoard);
+console.table(generatedBoard);
+
+
 //console.log(queenThreat(generatedBoard));
+//let board = JSON.stringify(generatedBoard)
+//console.log(board);
